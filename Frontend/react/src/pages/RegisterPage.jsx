@@ -42,7 +42,7 @@ function RegisterPage() {
   };
 
 
-  
+
   return (
     <>
       <div className="bg-img-full d-flex align-items-center justify-content-center min-vh-100 py-5">
