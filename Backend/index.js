@@ -30,7 +30,11 @@ app.use(helmet());
 // Cors controlla quali origini esterne possono chiamare le nostre API.
 // Da commentare/decommentare in base a quando il frontend è attivo.
 app.use(cors({
-    origin: 'http://localhost:5173', // URL esatto del frontend 
+    origin: [
+        'http://localhost:5173',
+        'https://jobboard-git-main-cristina-dev.vercel.app',
+        'https://jobboard-9r4fo31zk-cristina-dev.vercel.app'
+    ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
