@@ -11,7 +11,6 @@ Progetto di gruppo sviluppato come esercitazione full stack con autenticazione, 
 <img width="1897" height="865" alt="dashboardUtente2" src="https://github.com/user-attachments/assets/5e0c9b23-417b-477f-86f4-d4a470ea3d54" />
 <img width="1900" height="863" alt="dashboardAdienza1" src="https://github.com/user-attachments/assets/3eea7bd8-30dc-4596-b67c-d21b70e14e5b" />
 <img width="1897" height="855" alt="dashboardAzienda2" src="https://github.com/user-attachments/assets/d983fb6e-8e56-44be-9a42-514de5eb2568" />
-<img width="1897" height="865" alt="dashboardAzienda3" src="https://github.com/user-attachments/assets/38ed5cc3-9b99-4295-8741-94d441c19b1b" />
 
 ---
 
