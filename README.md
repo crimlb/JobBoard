@@ -92,7 +92,14 @@ LinkedIn: linkedin.com/in/cristina-buffone-576893316/
 Email: crimlb87@gmail.com
 
 [Agostino Schiattarella]
-GitHub: https://github.com/SchiAgo  @SchiAgo
+
+GitHub: https://github.com/SchiAgo
+
+[Mattia Formicola]
+GitHub: https://github.com/ShioNoSparkly
+
+[Israel Docarmo]
+GitHub: https://github.com/rael83
 
 ## 📄 Licenza
 Questo progetto è a scopo didattico e di portfolio. Non è consentito il riutilizzo del codice senza autorizzazione.
