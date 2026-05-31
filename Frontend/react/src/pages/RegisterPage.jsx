@@ -12,28 +12,29 @@ function RegisterPage() {
   const [success, setSuccess] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
 
-  async function handleSubmit(e){
+  async function handleSubmit(e) {
     e.preventDefault();
 
     setError({});
 
     try {
-      const BASE = 'http://localhost:3000';
-      const res = await fetch(`${BASE}/api/auth/registra`, {
+      const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api';
+      const res = await fetch(`${BASE}/auth/registra`, {
         method: 'POST',
-        headers: {'Content-Type' : 'application/json'},
-        body: JSON.stringify({email, password, name, role})
-    }) 
-    if(!res.ok){
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password, name, role })
+      })
+      if (!res.ok) {
         const data = await res.json()
         throw new Error(data.errore || 'Errore registrazione')
-    }
+      }
       setSuccess(true);
       setSuccessMessage("Registrazione avvenuta con successo!")
-      setTimeout(() => { navigate("/login")
-      }, 2000); 
-      
-      
+      setTimeout(() => {
+        navigate("/login")
+      }, 2000);
+
+
     } catch (error) {
       setError({ email: error.message });
     }
@@ -41,6 +42,7 @@ function RegisterPage() {
   };
 
 
+  
   return (
     <>
       <div className="bg-img-full d-flex align-items-center justify-content-center min-vh-100 py-5">
@@ -143,7 +145,7 @@ function RegisterPage() {
                         )}
                       </div>
                     </div>
-                   <button className="btn btn-primary btn-lg px-5 mt-3 text-nowrap" type="submit">Registrati</button>
+                    <button className="btn btn-primary btn-lg px-5 mt-3 text-nowrap" type="submit">Registrati</button>
                     <p className='mt-3'>Hai già un account?
                       <NavLink to='/login' className='text-decoration-none fw-semibold mx-2'>Accedi</NavLink></p>
                   </form>
