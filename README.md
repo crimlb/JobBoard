@@ -84,12 +84,15 @@ Progetto sviluppato in gruppo come esercitazione universitaria full stack.
 
 ---
 
-## 👩‍💻 Autrice
+## 👩‍💻 Autori
 [Cristina Buffone]
 
 GitHub: @crimlb
 LinkedIn: linkedin.com/in/cristina-buffone-576893316/
 Email: crimlb87@gmail.com
+
+[Agostino Schiattarella]
+GitHub: https://github.com/SchiAgo  @SchiAgo
 
 ## 📄 Licenza
 Questo progetto è a scopo didattico e di portfolio. Non è consentito il riutilizzo del codice senza autorizzazione.
