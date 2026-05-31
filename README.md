@@ -9,11 +9,6 @@ Progetto di gruppo sviluppato come esercitazione full stack con autenticazione, 
 
 <img width="1897" height="858" alt="loginpage" src="https://github.com/user-attachments/assets/e0d426fb-8a19-447b-b621-580f917e85c4" />
 <img width="1897" height="865" alt="dashboardUtente2" src="https://github.com/user-attachments/assets/5e0c9b23-417b-477f-86f4-d4a470ea3d54" />
-<img width="1895" height="862" alt="dashboardUtente3" src="https://github.com/user-attachments/assets/b97701a1-f01f-4a9a-ba3c-b2da975a04f2" />
-<img width="1896" height="863" alt="dashboardUtente4" src="https://github.com/user-attachments/assets/2fbec7d6-c406-454b-aad5-3160750e2d23" />
-<img width="1898" height="863" alt="homepageUtente1" src="https://github.com/user-attachments/assets/b6cfdeda-8ce2-489f-af4d-e4d29f1ec21b" />
-<img width="1897" height="863" alt="homepageUtente2" src="https://github.com/user-attachments/assets/c030f063-4c0a-4107-a417-3494e3f29fe2" />
-<img width="1897" height="863" alt="homepageUtente3" src="https://github.com/user-attachments/assets/7208800c-0ca2-4fd6-b116-440aa8c06690" />
 <img width="1900" height="863" alt="dashboardAdienza1" src="https://github.com/user-attachments/assets/3eea7bd8-30dc-4596-b67c-d21b70e14e5b" />
 <img width="1897" height="855" alt="dashboardAzienda2" src="https://github.com/user-attachments/assets/d983fb6e-8e56-44be-9a42-514de5eb2568" />
 <img width="1897" height="865" alt="dashboardAzienda3" src="https://github.com/user-attachments/assets/38ed5cc3-9b99-4295-8741-94d441c19b1b" />
