@@ -15,7 +15,7 @@ import CookiePage from './pages/CookiePage'
 import ComeCandidarsiPage from './pages/ComeCandidarsiPage'
 import TempiSelezione from './pages/TempiSelezionePage'
 import ProtectedRoute from './components/ProtectedRoutes';
-import CaricaCvPage from "./pages/CaricaCVPage";
+import CaricaCvPage from "./pages/CaricaCvPage";
 
 
 import { useState } from 'react'
