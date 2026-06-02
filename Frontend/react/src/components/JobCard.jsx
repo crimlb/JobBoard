@@ -24,7 +24,7 @@ const handleConfirm = () => {
 
   return (
 
-    <div className={`${colClass} job-card-animate`} style={style} >
+    <div className={`${colClass} job-card-animate mb-5`} style={style} >
       <div className="card h-100 border-0 shadow rounded-4 position-relative">
 
         <div className="card-body d-flex flex-column gap-2"> 
@@ -39,14 +39,15 @@ const handleConfirm = () => {
             <span className="badge bg-dark me-2">
               {job.city}
             </span>
-            <span className="badge bg-primary">
+            <span className="badge bg-primary text-wrap d-inline-block w-100">
               {job.contract_type}
             </span>
           </div>
           <p className="text-muted flex-grow-1"> {job.description}</p>
         
-          <div className="d-flex justify-content-between align-items-center mt-3"><strong>{job.salary}</strong>
-          <div className="d-flex gap-2">
+          <div className="d-flex flex-wrap justify-content-between align-items-center gap-2 mt-3">
+            <strong>{job.salary}</strong>
+          <div className="d-flex flex-wrapgap-2">
             {isOwner && (
          <>
             <button
@@ -65,7 +66,8 @@ const handleConfirm = () => {
             </button>
          </>
         )}
-            <button className="btn btn-outline-primary btn-sm" onClick={() => navigate(`/jobs/${job.id}`, { state: job})}>
+            <button className="btn btn-outline-primary btn-sm" 
+            onClick={() => navigate(`/jobs/${job.id}`, { state: job})}>
               Dettagli
             </button>
             </div>

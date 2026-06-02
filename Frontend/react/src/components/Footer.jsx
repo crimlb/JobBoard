@@ -70,6 +70,8 @@ const Footer = () => {
               <button
                 className="btn btn-primary dropdown-toggle w-100 d-flex justify-content-between align-items-center"
                 type="button"
+                  onClick={() => setShowDropdown(!showDropdown)}
+
               >
                 Seleziona un argomento...
               </button>
